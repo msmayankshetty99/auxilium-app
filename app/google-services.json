@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590838831002",
+    "firebase_url": "https://auxilium-app.firebaseio.com",
+    "project_id": "auxilium-app",
+    "storage_bucket": "auxilium-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590838831002:android:64e21170fabe1972d24c23",
+        "android_client_info": {
+          "package_name": "com.example.auxilium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590838831002-96pfergvpk69jtmg0316ifehjmtqdvvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvBo6wsgIo4e1037_HZ324PS7pHTXiqys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590838831002-96pfergvpk69jtmg0316ifehjmtqdvvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
