@@ -31,6 +31,8 @@ dependencies {
     // Firebase Authentication and Cloud Firestore
     implementation 'com.google.firebase:firebase-auth:19.2.0'
     implementation 'com.google.firebase:firebase-firestore:21.3.1'
+    // Firebase UI
+    implementation 'com.firebaseui:firebase-ui-auth:4.3.1'
     // Getting a "Could not find" error? Make sure that you've added
     // Google's Maven repository to your root-level build.gradle file
 }
