@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Auxilium</string>
+    <string name="signout_btn">Sign Out</string>
 </resources>
