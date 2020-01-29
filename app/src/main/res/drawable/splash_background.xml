@@ -4,7 +4,7 @@
         android:right="0dp"
         android:bottom="0dp"
         android:left="0dp"
-        android:drawable="@color/colorPrimary"> </item>
+        android:drawable="@android:color/white"> </item>
     <item android:drawable="@drawable/ic_auxilium_logo"
         android:width="250dp"
         android:height="250dp"

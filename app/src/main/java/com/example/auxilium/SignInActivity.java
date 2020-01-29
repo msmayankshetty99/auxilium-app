@@ -1,11 +1,11 @@
 package com.example.auxilium;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.IdpResponse;
@@ -32,6 +32,7 @@ public class SignInActivity extends AppCompatActivity {
                 new AuthUI.IdpConfig.EmailBuilder().build(), //Email
                 new AuthUI.IdpConfig.GoogleBuilder().build() //Gmail
         );
+
         showSignInOptions();
     }
 
@@ -39,6 +40,7 @@ public class SignInActivity extends AppCompatActivity {
         startActivityForResult(
                 AuthUI.getInstance().createSignInIntentBuilder()
                 .setAvailableProviders(providers)
+                .setLogo(R.drawable.ic_auxilium_logo)
                 .setTheme(R.style.SignInTheme)
                 .build(),MY_REQUEST_CODE
         );
@@ -50,12 +52,15 @@ public class SignInActivity extends AppCompatActivity {
         if(requestCode == MY_REQUEST_CODE)
         {
             IdpResponse response = IdpResponse.fromResultIntent(data);
+
             if(resultCode == RESULT_OK)
             {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 Toast.makeText(this,""+user.getEmail(), Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(SignInActivity.this, SignOutActivity.class));
+                //startActivity(new Intent(SignInActivity.this, SignOutActivity.class));
+                startActivity(new Intent(SignInActivity.this, MainActivity.class));
             }
+
             else
             {
                 Toast.makeText(this, ""+response.getError().getMessage(),Toast.LENGTH_SHORT).show();
