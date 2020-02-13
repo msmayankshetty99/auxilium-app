@@ -1,7 +1,20 @@
 <resources>
     <string name="app_name">Auxilium</string>
-    <string name="signout_btn">Sign Out</string>
     <string name="access_token">pk.eyJ1IjoicHVyYXZwYXRlbDc5IiwiYSI6ImNrNHdxZXc1ZDA1YmszbHRoN2l3YTExMWYifQ.LR6Ds3fmLGYekltaQsHELw</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- fragment_profile.xml strings -->
+    <string name="sign_out">Sign Out</string>
+    <string name="help">Help</string>
+    <string name="del_acc">Delete Account</string>
+    <string name="card_brief_1">Signs you out of the application.</string>
+    <string name="card_brief_2">Change your password or report a problem.</string>
+    <string name="card_brief_3">Permanently delete your account.</string>
+
+    <!-- activity_help.xml strings -->
+    <string name="change_pass">Change Password</string>
+    <string name="report_prob">Report Problem</string>
+    <string name="card_brief_4">Change your password.</string>
+    <string name="card_brief_5">Report a problem through email.</string>
 </resources>

@@ -14,11 +14,7 @@
         android:layout_height="match_parent"
         mapbox:mapbox_cameraTargetLat = "37.7749"
         mapbox:mapbox_cameraTargetLng = "-122.4194"
-        mapbox:mapbox_styleUrl = "mapbox://styles/puravpatel79/ck67ys74z0or61imgmlo737vu"
+        mapbox:mapbox_styleUrl = "mapbox://styles/puravpatel79/ck6900jr50zpc1jnygvc9it5q"
         mapbox:mapbox_cameraZoom = "12"
-        android:gravity="center"
-        />
-
-
-
+        android:gravity="center" />
 </androidx.constraintlayout.widget.ConstraintLayout>

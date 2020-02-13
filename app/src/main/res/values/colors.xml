@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#975cca</color>
-    <color name="colorPrimaryDark">#6c6c6c</color>
+    <color name="colorPrimaryDark">#542979</color>
     <color name="colorAccent">#975cca</color>
+    <color name="colorSecondary">#6c6c6c</color>
     <color name="fui_bgEmail">#975cca</color>
 </resources>

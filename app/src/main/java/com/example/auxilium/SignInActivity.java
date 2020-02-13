@@ -2,7 +2,6 @@ package com.example.auxilium;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +20,6 @@ public class SignInActivity extends AppCompatActivity {
 
     private static final int MY_REQUEST_CODE = 9875 ;
     List<AuthUI.IdpConfig> providers;
-    Button btn_sign_out;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +55,6 @@ public class SignInActivity extends AppCompatActivity {
             {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 Toast.makeText(this,""+user.getEmail(), Toast.LENGTH_SHORT).show();
-                //startActivity(new Intent(SignInActivity.this, SignOutActivity.class));
                 startActivity(new Intent(SignInActivity.this, MainActivity.class));
             }
 
