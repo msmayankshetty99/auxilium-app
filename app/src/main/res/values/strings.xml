@@ -12,6 +12,10 @@
     <string name="card_brief_2">Change your password or report a problem.</string>
     <string name="card_brief_3">Permanently delete your account.</string>
 
+    <!--User location permission toast-->
+    <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+
     <!-- activity_help.xml strings -->
     <string name="change_pass">Change Password</string>
     <string name="report_prob">Report Problem</string>
